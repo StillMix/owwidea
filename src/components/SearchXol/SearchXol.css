@@ -1,0 +1,89 @@
+.no-scroll {
+  overflow: hidden;
+}
+
+.searchxol {
+  position: fixed;
+  overflow-y: auto; /* добавляем возможность вертикальной прокрутки только внутри элемента */
+  z-index: 9999;
+  overflow: hidden;
+  width: 100%;
+  pointer-events: none;
+  height: 100%;
+}
+
+.searchxol__bck {
+  object-fit: cover;
+  width: 360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.searchxol__back {
+  margin-left: 22px;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 200%;
+  color: #fff;
+}
+
+.searchxol__back img {
+  margin-right: 18px;
+}
+
+.searchxol__title {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 200%;
+  color: #fff;
+}
+
+.searchxol__title img {
+  fill: #fff;
+  margin-right: 10px;
+}
+
+.searchxol__input {
+  width: 278px;
+  display: block;
+  height: 55px;
+  margin-top: 20px;
+  padding-left: 54px;
+  background: rgba(173, 240, 212, 1);
+  border-radius: 91px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchxol__main {
+  position: relative;
+  margin-top: 35px;
+  min-height: 100px;
+  border-radius: 15px 15px 0 0;
+  width: 360px;
+  background: #fff;
+}
+
+.searchxol_main_choice {
+  position: relative;
+  width: 332px;
+  top: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchxol_main_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+}
